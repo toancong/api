@@ -11,24 +11,10 @@ Docker compose example
   ``` bash
   version: "2"
   services:
-    mongo:
-      image: mvertes/alpine-mongo
-    rockmongo:
-      image: javierjeronimo/rockmongo
-      ports:
-        - "5020:80"
-      depends_on:
-        - mongo
-      links:
-        - mongo
     api:
       image: toancong/api:node-4
       volumes:
         - .:/usr/app
-      links:
-        - mongo:mongo
-      depends_on:
-        - mongo
       ports:
         - "3000:3000"
       environment:
