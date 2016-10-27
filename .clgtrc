@@ -1,0 +1,37 @@
+{
+  "file": "CHANGELOG.md",
+  "name": "toancong/api",
+  "description": "Image docker base for api",
+  "url": "https://github.com/toancong/api/commit",
+  "types": [
+    {
+      "title": "Bug Fixes",
+      "pattern": "^fix|^bug|^hotfix"
+    },
+    {
+      "title": "Features",
+      "pattern": "^feat"
+    },
+    {
+      "title": "Documentation",
+      "pattern": "^docs"
+    },
+    {
+      "title": "Breaking changes",
+      "pattern": "BREAKING"
+    },
+    {
+      "title": "Refactor",
+      "pattern": "^refactor"
+    },
+    {
+      "title": "Style",
+      "pattern": "^style"
+    },
+    {
+      "title": "Test",
+      "pattern": "^test"
+    }
+  ],
+  "ignore": ".*ignore me.*|.*CHANGELOG.md.*|.*ignoreme.*|^chore|^release|^revert|^Merge pull request|^Merge branch"
+}
