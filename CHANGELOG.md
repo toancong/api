@@ -10,5 +10,7 @@ _Image docker base for api_
  ([1b04812](https://github.com/toancong/api/commit/1b04812))
 - Use strongloop using node:latest as default
  ([52294bf](https://github.com/toancong/api/commit/52294bf))
+- Initial commit
+ ([8ad5642](https://github.com/toancong/api/commit/8ad5642))
 
 
