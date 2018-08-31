@@ -1,11 +1,10 @@
 FROM strongloop/strong-pm
-MAINTAINER Pham Cong Toan <toan.pham@monokera.com>
 
-USER root
 RUN npm install --global \
+    apiconnect \
+    git \
+    loopback-cli \
     strongloop \
-    yarn \
-    && npm cache clear \
-    && sl-pm-install
+    && npm cache clean
 
 WORKDIR /usr/app
